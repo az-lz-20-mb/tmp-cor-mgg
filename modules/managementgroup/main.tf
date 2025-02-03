@@ -8,6 +8,7 @@ module "management_groups" {
 
 }
 
+
 module "subscriptions_local" {
   source = "../resources/subscription"
 
