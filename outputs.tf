@@ -6,6 +6,6 @@ output "management_groups" {
 #   value = { for key, content in module.subscriptions : key => content }
 # }
 
-output "subscriptions_local" {
-  value = { for key, content in module.subscriptions_local : key => content }
-}
+# output "subscriptions_local" {
+#   value = { for key, content in module.subscriptions_local : key => content }
+# }
