@@ -8,7 +8,7 @@ module "management_groups" {
 
 
 # module "subscriptions_local" {
-#   source = "../resources/subscription"
+#   source = "git::https://github.com/az-lz-20-mb/mod-cus-res-management-group"
 
 #   for_each  = var.subscriptions_local
 
